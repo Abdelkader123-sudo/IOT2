@@ -1,0 +1,13 @@
+description: Mesh-Lite + CoAP DTLS-PSK Observe + DHT
+version: 1.0.0
+
+dependencies:
+  idf: ">=5.0"
+  espressif/coap:
+    version: "^4.3.0"
+  espressif/mesh_lite:
+    version: "*"           
+  espressif/mdns:
+    version: "^1.0.0"     
+  esp-idf-lib/dht:
+    version: "*"       
